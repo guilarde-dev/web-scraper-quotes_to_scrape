@@ -20,7 +20,7 @@ logging.basicConfig(
     level= logging.INFO,
     format='%(asctime)s - [%(levelname)s] - %(message)s ',
     handlers= [
-        logging.FileHandler('test2.log', encoding='utf-8'),
+        logging.FileHandler('quotes.log', encoding='utf-8'),
         logging.StreamHandler()
     ]
 )
@@ -34,7 +34,7 @@ path_to_config = os.path.join(BASE_DIRE, "config.json")
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
 creds = ServiceAccountCredentials.from_json_keyfile_name(path_to_creds, scope)
 client = gspread.authorize(creds)
-planner = client.open("Planilha quotes").sheet1
+planner = client.open("Planner quotes").sheet1
 
 class Scraper:
 
