@@ -1,0 +1,9 @@
+selenium
+gspread
+selenium-stealth
+oauth2client
+pandas
+openpyxl
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
