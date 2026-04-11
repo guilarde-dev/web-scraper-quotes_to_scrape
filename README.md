@@ -14,7 +14,17 @@
     *__local__: save data to .csv and .xlsx files.
     *__cloud__: syncs data to _google sheets_ spreadsheets.
 
-##  📋 setup and prerequisites
+## 📊 result and performance
+
+  ### Execution logs
+  ![Execution log](screenshot/log_execution.png)
+
+  ### data output (Google sheets, CSV and XLSX)
+  ![Spreadsheet result](screenshot/result_in_google_sheets.png)
+  ![Result in csv](screenshot/result_in_csv.png)
+  ![Result in xlsx](screenshot/result_in_xlsx.png)
+
+## 📋 setup and prerequisites
 
   __google sheets integration__: to the script storage the data correctly, follow these steps:
      __open file__: open a new planner in google sheets and rename it as "Planner quotes".
